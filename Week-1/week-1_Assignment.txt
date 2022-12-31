@@ -1,0 +1,31 @@
+1. What is the main functionality of the browser?
+A. The main function of browser is to retrieve information from World Wide Web and make it available to the user.
+The browser interprets the software code (HTML) from the website and displays it in visual context to the user.
+
+2. High level components of a browser?
+A.
+1. User interface
+2. Browser engine
+3. Rendering engine
+4. Networking
+5. JavaScript interpreter
+6. UI Backened
+7. Data Persistence
+
+3. Render engine and its use.
+A. Rendering engine is responsible for displaying requested content. It parses the HTML and CSS, and displays the parsed content on the browser.
+
+4. Parsers (HTML, CSS, etc)
+A. Parser is a program, which receives input in the form of sequential source program instructions, online commands, and HTML tags, and breaks them down in to small parts, so they can be transalted on the target platform.
+
+5. Script Processors
+A. The script processor executes Javascript code to process an event. It is useful in situations where one of the other processors does not provide the functionality you need to filter the events.
+
+6. Tree construction
+A. The input to the tree construction stage is a sequence of tokens from the tokenization stage. The tree construction stage is associated with a DOM Document object when a parser is created. The "output" of this stage consists of dynamically modifying or extending that document's DOM tree.
+
+7. Order of script processing
+A. Script tags are executed in order they appear.
+It also means scripts which appear later on the page can depend on things scripts which appear earlier have done. Elements on the page won't render until all the script tags preceding them have loaded and executed.
+
+8. Layout and Painting

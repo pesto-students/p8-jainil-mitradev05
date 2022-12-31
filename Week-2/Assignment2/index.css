@@ -1,0 +1,64 @@
+
+
+#m1 {
+    margin-top: 100px;
+    
+}
+#r1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+
+#r2 {
+
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+
+#r3 {
+
+    background-color:blue;
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+
+#r4 {
+
+    background-color:green;
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+
+#b1 {
+    display: flex;
+    justify-content: center;
+            
+}
+
+#b2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#r1:hover {
+    transform: rotate(90deg);
+}
+
+#r2:hover {
+    transform: rotate(90deg);
+}
+
+#r3:hover {
+    transform: rotate(90deg);
+}
+
+#r4:hover {
+    transform: rotate(90deg);
+}
